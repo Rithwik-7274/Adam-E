@@ -43,16 +43,11 @@ Specific neural network tasks designed to break standard optimizers.
   * **CIFAR-10:** Generalization on image data.
   * **Corrupted MNIST:** Tests robustness against noisy labels (40% corruption).
 
-## 📈 Results Summary
+## 📈 Results
 
-Based on the experiment logs, Adam-E demonstrates a distinct trade-off:
+<img width="768" height="492" alt="Screenshot-13-02-2026-21-22-14" src="https://github.com/user-attachments/assets/232afe2a-ef18-4a07-922c-6c55c07ac7aa" />
+<img width="768" height="491" alt="Screenshot-13-02-2026-21-22-46" src="https://github.com/user-attachments/assets/27b57c04-5a03-40d2-aff9-b37d31785465" />
 
-| Metric | Standard Adam | Adam-E (Ours) |
-| :--- | :--- | :--- |
-| **Convergence Speed** | Fast | Slower (due to population overhead) |
-| **Local Optima Escape** | Moderate | **Excellent** (See Parity/Spirals results) |
-| **Final Accuracy** | Baseline | **Higher** (often +1% to +5% on hard tasks) |
-| **Robustness** | Moderate | High (via Ensemble) |
 
 ## 🛠️ Getting Started
 
